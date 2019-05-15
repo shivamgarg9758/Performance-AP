@@ -1,0 +1,16 @@
+package Performance.Performance;
+
+public class Test {
+
+	static double x;
+	double y;
+
+public static double getRandomIntegerBetweenRange(double min, double max){
+    double x = (int)(Math.random()*((max-min)+1))+min;
+    return x;
+}
+	public static void main(String args[]) {
+		x = getRandomIntegerBetweenRange(10000, 999999);
+		System.out.println(x);
+	}
+}
