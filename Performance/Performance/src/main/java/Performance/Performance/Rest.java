@@ -2,7 +2,7 @@ package Performance.Performance;
 
 public class Rest {
 		
-	private static String testapi = "https://tca.genpact.com/tca/validate";
+	private static String testapi = "https://";
 	private static String predictapi = "https://"; 
 	private static String payloadtest = "";
 	public static int code = 0;
