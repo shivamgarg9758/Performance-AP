@@ -3,14 +3,14 @@ package Performance.Performance;
 public class Rest {
 		
 	private static String testapi = "https://tca.genpact.com/tca/validate";
-	private static String predictapi = "https://tca.genpact.com/tca/ci_predict"; 
-	private static String payloadtest = "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJwYXlsb2FkIjoiZ0FBQUFBQmNibGlEWUs0QXYxanhNWDVXQUp6VjE1WmdnRWJoZUdGczdDWHZ1OGhvLTY4UE5OMHh5UjNzY0llZVhLR0k1RGFEVU5CYk82RW1Ia2VVYlk4SzNzNHlmVEZ2ZWdwOTFibmJlTzd4NUpfS3hPX2Q5bUpBTk9pLVNISjE3amczS01ieXhVWFN2dWRoSVJIZjM2RFR6N0RkZEFxSUFPb3Jla3hZSlpoeXREWGRCSjRQTk80PSJ9.FYlYDrmUg5pbFEu5oGzJz51dAPb7xJHLPO1ssAzuUAq6HoAHb4n2Kwl7r6_u6NL81vXdUcMedyusOp4SIlt34A";
+	private static String predictapi = "https://"; 
+	private static String payloadtest = "";
 	public static int code = 0;
 	public static RequestSpecification request;
 	public static JSONObject json;
 	public static Response response;
 	public static String Pattern;
-	public static String retrievalAPI ="https://tca.genpact.com/tca/retrieveCIData";
+	public static String retrievalAPI ="";
 	public static JSONArray array;
 
 	public static void setRequestJson() {
